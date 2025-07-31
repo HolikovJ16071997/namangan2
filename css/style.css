@@ -104,6 +104,22 @@ img{
 .currency-rates__type{
     color: #2959ce;
 }
+/* Global search */
+.global-search-form {
+    margin-right: 25px;
+}
+.global-search-form__input {
+    padding: 15px 20px 15px 40px;
+    border-radius:60px;
+    font-size: 14px;
+    line-height: normal;
+    border: 0;
+}
+
+:focus {
+    outline: none;
+  }
+
 /* Lang-toggle */
 .lang-toggle {
     margin-right: 25px;
@@ -136,3 +152,4 @@ img{
     background: rgba(114, 150, 236, 1);
 
 }
+
